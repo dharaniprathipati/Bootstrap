@@ -1,0 +1,13 @@
+.about-images img{
+    height: 300px;
+}
+.card-img-top{
+    height: 200px;  
+}
+.home-image img{
+    height: 100%;
+    width: 200px;
+}
+.li{
+    list-style-type: none;
+}
