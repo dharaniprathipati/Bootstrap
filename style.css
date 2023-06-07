@@ -43,6 +43,23 @@ li{
  }
  .forms{
     border: 2px solid rgb(12, 233, 119);
-    
+ }
+ .form{
+    width: 80%;
+    height: 30px;
+    padding-left: 10px;
+    font-size: 20px;
+    outline: none;
+    border: 1px solid rgb(17, 134, 218);
+    border-radius: 10px;
+    margin: 10px 0px;
+ }
+ .form:focus{
+    border: 1px solid rgb(218, 12, 12);
+ }
+ .icon{
+    position: absolute;
+    right: 20px;
+    top: 50px;
  }
  
