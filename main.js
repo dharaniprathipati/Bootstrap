@@ -17,14 +17,24 @@
   document.querySelector("#active").innerHTML="Microsoft";
   document.querySelector(".office").innerHTML="Student";
 
-//  javascript cases
+// javascript cases
  const firstName="Dharani";
  document.querySelector("#para").innerHTML= firstName;
 
 // operators
 // Arithmetic
-  var x=100;
-  var y=50;
-  var z=x/y;
-  console.log(z);
+  var a=100;
+  var b=50;
+  var c=a/b;
+  console.log(c);
+
+// assignment operator
+  var a=200;
+  var b=5;
+  var d=a*=b;
+  console.log(d);
   
+// comparision
+  var s=18;
+  var v=5;
+  console.log(s>v)
