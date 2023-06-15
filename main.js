@@ -82,8 +82,10 @@
    console.log(fruits[0]);
 
 // functions 
-   
-
+    function functionname(){
+      return console.log(a+b);
+    }
+     functionname(40,500);
 
 
 
