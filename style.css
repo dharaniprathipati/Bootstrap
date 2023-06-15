@@ -62,4 +62,10 @@ li{
     right: 20px;
     top: 50px;
  }
- 
+ /* button image */
+ .head{
+    display: none;
+ }
+ .head11{
+    display: block;
+ }

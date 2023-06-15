@@ -86,7 +86,23 @@
       return console.log(a+b);
     }
      functionname(40,500);
+       
+     function myjava(d,y){
+      var u=70;
+      var h=57;
+      return console.log(u+h);
+     };
+     myjava();
 
+
+// button image hidden
+   const click=document.querySelector(".button");
+   const tag=document.querySelector(".head");
+
+   click.addEventListener("click",function myfunction(){
+     return tag.classList.toggle("head11");
+   })
+  
 
 
 
