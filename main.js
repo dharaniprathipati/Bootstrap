@@ -38,3 +38,62 @@
   var s=18;
   var v=5;
   console.log(s>v)
+
+// string comparsion
+   var x=29;
+   var y=53;
+   var z="23";
+   console.log(x+y+z);
+   console.log(z+y+x);
+
+// logical operator
+   var x=29;
+   var y=53;
+   var z=23;
+   console.log(x<y && y>z);
+   console.log(x<y || y>z);
+   console.log(x<y && y<z);
+   console.log(x>y || y>z);
+
+// type operator
+   var c=40;
+   console.log(typeof(c))
+   
+// bit operator
+   var e=9;
+   var f=90;
+   console.log(e&f);
+   console.log(e|f);
+   console.log(~f);
+
+
+// data types
+   var c="10";
+   console.log(typeof(c)); 
+   var Dharani;
+   console.log(typeof(Dharani));
+   const person={firstname:"Dharani", Middlename:"Prtahipati", age:21, eyecolor:"brown"};
+   console.log(person.age);
+   console.log(person.Middlename);
+   console.log(person.firstname);
+   console.log(person.eyecolor);
+
+   var fruits=["Mango", "Apple", "Papaya" ];
+   console.log(fruits[0]);
+
+// functions 
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
