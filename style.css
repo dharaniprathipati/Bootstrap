@@ -69,3 +69,11 @@ li{
  .head11{
     display: block;
  }
+ 
+ /* image hidden */
+.image-10{
+   display: none;
+ }
+.img_10{
+   display: block;
+ }

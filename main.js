@@ -96,22 +96,68 @@
 
 
 // button image hidden
-   const click=document.querySelector(".button");
-   const tag=document.querySelector(".head");
+  //  const click=document.querySelector(".button");
+  //  const tag=document.querySelector(".head");
 
-   click.addEventListener("click",function myfunction(){
-     return tag.classList.toggle("head11");
-   })
-  
-
-
-
-
-
-
-
-
-
-
-
+  //  click.addEventListener("click",function myfunction(){
+  //    return tag.classList.toggle("head11");
+  //  });
    
+   const tag = document.querySelector(".head");
+   function myfunction(){
+    return tag.classList.toggle("head11");
+   };
+
+   const image = document.querySelector(".image-10");
+   function myfunction(){
+    return image.classList.toggle("img_10");
+   };
+
+  
+    // Arrays
+
+    // to string
+    const array=["web", "Array", "phyton", "html"];
+    const array9=["java", "guery", "c++"]
+
+    // const array6=array.toString();
+    // console.log(array6);
+
+    // push
+    // array.push("mysql");
+    // const array6=array.toString();
+    // console.log(array6);  
+
+    // pop
+    // array.pop();
+    // const array6=array.toString();
+    // console.log(array6);  
+
+    // length
+    // const array6=array.length;
+    // console.log(array6);
+
+    // unshift
+    //  array.unshift("development");
+    //  const array6=array.toString();
+    //  console.log(array6);
+
+    // shift
+    // array.shift();
+    // const array6=array.toString();
+    // console.log(array6);
+    
+    // concat
+    // const arr=array.concat(array9);
+    // const marg=arr.toString();
+    // console.log(marg);
+
+    // splice
+    // array.splice(1,0,"graphic","c");
+    // const array6=array.toString();
+    // console.log(array6);
+
+    // slice
+    person="dharaniprathipati";
+    const array6=person.slice(5,15);
+    console.log(array6);
