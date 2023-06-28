@@ -163,8 +163,7 @@
     // console.log(array6);
 
 
-
-
+    //  E-commerce
     const ornaments=[
      {id:0, image:"download(4).jfif",title:"Bracelet",prize:"550",rating:"4.4"},
      {id:1, image:"download(5).jfif",title:"Ring",prize:"305",rating:"4.5"},
