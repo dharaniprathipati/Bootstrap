@@ -196,4 +196,12 @@
       `
       document.querySelector(".support").innerHTML = data;
     });
-     
+    function deleteButton(id){
+      const deleteitems=document.querySelector(`[data-id="${id}"]`);
+      deleteitems.style.display="none";
+      const filterArray=ornaments.filter(function filterFunction(items){
+        return items.id !== id;
+      });
+     dataitems = filterArray;
+     console.log(dataitems);
+    }
