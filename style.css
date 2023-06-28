@@ -77,3 +77,13 @@ li{
 .img_10{
    display: block;
  }
+
+ .cards-ornaments img{
+   width: 250px;
+   height: 200px;
+ }
+ .cards-ornaments{
+   box-shadow: 1px 1px 5px 5px;
+   height: 400px;
+   padding: 5px 0px;
+ }
